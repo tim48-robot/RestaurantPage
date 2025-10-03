@@ -1,4 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  font-family: sans-serif;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 img {
     width: 350px;
     height: 350px;
+    display: block;
+}
+
+nav{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    border: transparent;
+    padding: 10px 20px;
+    border-radius: 15px;
+    cursor:pointer;
+    color: white;
+    background: linear-gradient(135deg, blue, black, red);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+button:hover{
+    background: linear-gradient(135deg, red, black, blue);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+
+button:active{
+    transform: scale(0.85);
+    transition: all 0.3s ease;
 }
