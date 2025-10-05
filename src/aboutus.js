@@ -1,6 +1,7 @@
 export default function about(){
     const content = document.querySelector("#content");
     content.replaceChildren();
+    content.style.gap = "0";
 
     const text = document.createElement("p");
     const text2 = document.createElement("p");

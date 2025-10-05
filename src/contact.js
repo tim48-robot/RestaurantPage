@@ -1,5 +1,6 @@
 export default function contact(){
     const content = document.querySelector("#content");
+    content.style.gap = "0";
     content.replaceChildren();
 
     const text = document.createElement("p");
