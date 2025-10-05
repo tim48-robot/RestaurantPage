@@ -1,4 +1,5 @@
 # RestaurantTegal
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Visit%20Site-blue?style=for-the-badge)](https://tim48-robot.github.io/RestaurantPage/)
 
 Welcome to **RestaurantTegal**!  
 This project is a practical exploration of **Webpack** and **JavaScript module dependency management**.
