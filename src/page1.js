@@ -1,7 +1,7 @@
 import imagepng from "./image.png";
 import "./styles.css";
 
-export default function selamatpagi(){
+export default function home(){
     const content = document.querySelector("#content");
 
     const image = document.createElement("img");
