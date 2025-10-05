@@ -3,6 +3,7 @@ import "./styles.css";
 
 export default function home(){
     const content = document.querySelector("#content");
+    content.replaceChildren();
 
     const image = document.createElement("img");
     image.src = imagepng
